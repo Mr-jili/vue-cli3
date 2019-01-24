@@ -20,7 +20,7 @@ yarn build:production
 yarn run build:test
 ```
 
-### Run your tests       预发布环境     
+### Run your pre       预发布环境     
 ```
 yarn run build:pre-environment
 ```
