@@ -20,9 +20,14 @@ yarn build:production
 yarn run build:test
 ```
 
+### Run your tests       预发布环境     
+```
+yarn run build:pre-environment
+```
+
 ### Lints and fixes files
 ```
-yarn run lint
+yn run lint
 ```
 
 ### Run your unit tests
