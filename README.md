@@ -5,19 +5,19 @@
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles and hot-reloads for development   开发环境
 ```
 yarn run serve
 ```
 
-### Compiles and minifies for production
+### Compiles and minifies for production  生产环境
 ```
-yarn run build
+yarn build:production 
 ```
 
-### Run your tests
+### Run your tests       测试环境     
 ```
-yarn run test
+yarn run build:test
 ```
 
 ### Lints and fixes files
