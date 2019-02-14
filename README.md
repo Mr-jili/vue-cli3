@@ -12,7 +12,7 @@ yarn run serve
 
 ### Compiles and minifies for production  生产环境
 ```
-yarn build:production 
+yarn run build:production 
 ```
 
 ### Run your tests       测试环境     
