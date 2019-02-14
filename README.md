@@ -7,22 +7,22 @@ yarn install
 
 ### Compiles and hot-reloads for development   开发环境
 ```
-yarn run serve
+yarn serve
 ```
 
 ### Compiles and minifies for production  生产环境
 ```
-yarn run build:production 
+yarn build:production 
 ```
 
 ### Run your tests       测试环境     
 ```
-yarn run build:test
+yarn build:test
 ```
 
 ### Run your pre       预发布环境     
 ```
-yarn run build:pre-environment
+yarn build:pre-environment
 ```
 
 ### Lints and fixes files
