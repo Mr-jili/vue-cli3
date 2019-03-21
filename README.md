@@ -163,9 +163,11 @@
   
 ## 打包环境
 #### 环境配置注意事项
-> 环境名应该与环境文件统一 (根目录创建的.env.xxx需要与各环境变量相同。)
-> 环境文件放置根目录下
-> 除了baseUrl和NODE_ENV其他环境使用VUE_APP开头  
+> 1.环境名应该与环境文件统一 (根目录创建的.env.xxx需要与各环境变量相同。)
+
+> 2.环境文件放置根目录下
+
+> 3.除了baseUrl和NODE_ENV其他环境使用VUE_APP开头  
 
 
 ### Compiles and hot-reloads for development   开发环境
