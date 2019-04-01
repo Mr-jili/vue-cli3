@@ -58,6 +58,7 @@
 
 
 ## vue.config.js配置
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 <table border="1">
     <thead>
       <tr>文件</tr>
@@ -110,6 +111,9 @@
           configureWebpack: config => {<br />
           if (process.env.NODE_ENV === 'production') {<br />
           // 为生产环境修改配置...<br />
+                config.plugins.push(<br />
+                    new BundleAnalyzerPlugin() //webpack打包性能分析插件 <br />      
+                );<br />
           } else {<br />
           // 为开发环境修改配置...<br />
           }<br />
