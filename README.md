@@ -1,3 +1,14 @@
+  ## 代理另一种方法
+  > vue.config.js不用配置proxy
+  > 直接在.env.test / .env.pre-release / .env.production 中配置如下：
+  ```
+  // 以测试为例 其它环境如同
+  NODE_ENV = 'test'
+  VUE_APP_API_URL='http://172.22.0.62:8082/'
+  VUE_APP_CURRENTMODE= 'test'
+  ```
+  直接在全局process.env.VUE_APP_API_URL就能获取
+  
   ## 文件作用
   <table border="1">
     <thead>
