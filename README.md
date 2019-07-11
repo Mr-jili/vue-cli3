@@ -7,7 +7,7 @@
   VUE_APP_API_URL='http://172.22.0.62:8082/'
   VUE_APP_CURRENTMODE= 'test'
   ```
-  直接在全局process.env.VUE_APP_API_URL就能获取
+  直接在API中process.env.VUE_APP_API_URL就能获取
   
   ## 文件作用
   <table border="1">
